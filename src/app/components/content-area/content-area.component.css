@@ -1,6 +1,17 @@
-.content-area {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 15px;
+.listaEstudiantes {
+    list-style: none;
+}
+
+
+.activo {
+    color: blue;
+}
+
+.inactivo {
+    color: gray;
+}
+
+.botonActivarEstado {
+    background-color: bisque;
+    margin-left: 5rem;
 }
